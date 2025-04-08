@@ -11,12 +11,12 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/nubank-ultravioleta-cartao-de-credito-capa.webp')}
+          source={require('@/assets/images/peladobank.png')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Seja bem-vindo ao seu banco NuBank!</ThemedText>
+        <ThemedText type="title">Seja bem-vindo ao seu banco PeladoBank!</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Saldo: 102,934.00</ThemedText>
