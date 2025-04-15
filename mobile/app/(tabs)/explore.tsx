@@ -20,12 +20,13 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Área pix</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
+      <ThemedText>Envie e receba pagamentos a qualquer hora e dia da semana, sem pagar nada por isso.</ThemedText>
+      <button>Transferir</button><button>Programar</button><button>Pix Copia e Cola</button><button>Ler QR Code</button>
       <Collapsible title="File-based routing">
         <ThemedText>
-          This app has two screens:{' '}
+          Receber{' '}
           <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
           <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
         </ThemedText>
